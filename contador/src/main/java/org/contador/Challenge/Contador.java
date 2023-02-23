@@ -1,4 +1,4 @@
-package br.com.contador.Challenge;
+package org.contador.Challenge;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package br.com.contador.Challenge;
+package org.contador.Challenge;
 
 public class ParametrosInvalidosException extends Exception {
 }

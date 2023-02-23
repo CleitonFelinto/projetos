@@ -1,4 +1,4 @@
-package br.com.viacep.utils;
+package org.viacep.utils;
 
 import java.util.Objects;
 

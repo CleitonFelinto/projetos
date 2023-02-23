@@ -1,4 +1,4 @@
-package br.com.contador.Cases;
+package org.contador.Cases;
 
 import java.util.concurrent.ThreadLocalRandom;
 

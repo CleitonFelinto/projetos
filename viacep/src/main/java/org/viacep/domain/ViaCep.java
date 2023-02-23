@@ -1,4 +1,4 @@
-package br.com.viacep.domain;
+package org.viacep.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

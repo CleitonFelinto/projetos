@@ -1,4 +1,4 @@
-package br.com.viacep.enums;
+package org.viacep.enums;
 
 import java.util.Arrays;
 import java.util.Optional;

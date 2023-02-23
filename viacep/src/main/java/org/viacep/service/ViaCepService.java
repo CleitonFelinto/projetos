@@ -1,9 +1,9 @@
-package br.com.viacep.service;
+package org.viacep.service;
 
-import br.com.viacep.domain.ViaCep;
-import br.com.viacep.domain.ViaCepResponse;
-import br.com.viacep.enums.FreteEnum;
-import br.com.viacep.utils.ViaCepUtils;
+import org.viacep.domain.ViaCep;
+import org.viacep.domain.ViaCepResponse;
+import org.viacep.enums.FreteEnum;
+import org.viacep.utils.ViaCepUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Assertions;

@@ -1,4 +1,4 @@
-package br.com.contador.Cases;
+package org.contador.Cases;
 
 public class CaseThree {
     public static void main(String[] args) {

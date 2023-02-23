@@ -1,7 +1,7 @@
-package br.com.viacep.controller;
+package org.viacep.controller;
 
-import br.com.viacep.domain.ViaCep;
-import br.com.viacep.service.ViaCepService;
+import org.viacep.domain.ViaCep;
+import org.viacep.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
