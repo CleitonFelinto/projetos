@@ -1,6 +1,6 @@
 # Java Challenges
 
-#### Autores
+#### Autor
 - [Cleiton Felinto](https://github.com/CleitonFelinto)
 
 ## Controle de Fluxo - Desafio

@@ -1,6 +1,6 @@
 # Java Challenges
 
-#### Autores
+#### Autor
 - [Cleiton Felinto](https://github.com/CleitonFelinto)
 
 ### Desafios em Java
