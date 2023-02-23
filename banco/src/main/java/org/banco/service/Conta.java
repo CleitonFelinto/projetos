@@ -37,7 +37,7 @@ public abstract class Conta implements ContaInterface {
     }
 
     @Override
-    public void depositar(double valor, ContaInterface contaDestino) {
+    public void depositar(double valor) {
         saldo += valor;
     }
 
@@ -48,7 +48,7 @@ public abstract class Conta implements ContaInterface {
         }
         else {
             this.sacar(valor);
-            contaDestino.depositar(valor, contaDestino);
+            contaDestino.depositar(valor);
         }
     }
 

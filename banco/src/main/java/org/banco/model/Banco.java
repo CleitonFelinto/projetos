@@ -11,9 +11,9 @@ import org.banco.service.Conta;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Banco {
+public class Banco<T> {
 
     private String nome;
-    private List<Conta> contas;
+    private List<T> contas;
 
 }
