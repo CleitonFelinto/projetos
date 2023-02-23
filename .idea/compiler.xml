@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="viacep" />
         <module name="contador" />
+        <module name="new" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="contador" options="-parameters" />
       <module name="ecommerce" options="-parameters" />
+      <module name="new" options="-parameters" />
       <module name="viacep" options="-parameters" />
     </option>
   </component>
