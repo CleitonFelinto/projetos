@@ -1,7 +1,5 @@
 package org.banco;
 
-import java.util.List;
-import org.banco.model.Banco;
 import org.banco.model.Cliente;
 import org.banco.service.Conta;
 import org.banco.model.ContaCorrente;
