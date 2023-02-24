@@ -1,9 +1,9 @@
 package org.banco;
 
 import org.banco.model.Cliente;
-import org.banco.service.Conta;
 import org.banco.model.ContaCorrente;
 import org.banco.model.ContaPoupanca;
+import org.banco.service.Conta;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,5 +19,6 @@ public class Main {
 
         cc.imprimirExtrato();
         poupanca.imprimirExtrato();
+
     }
 }
