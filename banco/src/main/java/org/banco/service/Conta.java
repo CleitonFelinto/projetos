@@ -1,9 +1,12 @@
 package org.banco.service;
 
+import java.util.Queue;
+import java.util.Stack;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 import org.banco.model.Cliente;
 import org.banco.exception.SaldoException;
 
@@ -11,7 +14,7 @@ import org.banco.exception.SaldoException;
 @NoArgsConstructor
 @Getter
 @Setter
-public abstract class Conta implements ContaInterface {
+public abstract class Conta implements ContaService {
 
     private static final int AGENCIA_PADRAO = 1;
     private static int SEQUENCIAL = 1;
@@ -42,7 +45,7 @@ public abstract class Conta implements ContaInterface {
     }
 
     @Override
-    public void transferir(double valor, ContaInterface contaDestino) {
+    public void transferir(double valor, ContaService contaDestino) {
         if (valor > this.saldo){
             throw new SaldoException("NÃO É POSSÌVEL REALIZAR OPERAÇÃO. SALDO EM CONTA MENOR QUE O VALOR SOLICITADO");
         }
